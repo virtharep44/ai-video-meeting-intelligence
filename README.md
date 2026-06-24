@@ -221,8 +221,8 @@ SARVAM_STT_MODEL=saaras:v2.5
 WHISPER_MODEL=base
 ```
 
-> Get your Mistral API key 
-> Get your Sarvam API key at
+> Get your Mistral API key and
+> Get your Sarvam API key 
 
 
 
