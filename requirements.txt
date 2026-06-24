@@ -1,0 +1,39 @@
+# ─────────────────────────────────────────────
+#  AI Meeting Assistant — Python Dependencies
+# ─────────────────────────────────────────────
+
+# ── Audio & Transcription ─────────────────────
+openai-whisper      # Local Whisper transcription
+yt-dlp==2024.5.27               # Download audio from YouTube URLs
+ffmpeg-python==0.2.0            # FFmpeg bindings (ffmpeg must be installed separately)
+pydub==0.25.1                   # Audio file manipulation
+
+# ── Translation ───────────────────────────────
+deep-translator==1.11.4         # Hindi → English translation (free, no API key needed)
+
+# ── LangChain & Mistral AI ────────────────────
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-community==0.2.16
+langchain-mistralai==0.1.13     # Mistral AI integration for LangChain
+mistralai==1.0.3                # Mistral AI Python SDK
+
+# ── RAG Pipeline ──────────────────────────────
+chromadb==0.5.3                 # Vector store for RAG
+sentence-transformers==3.0.1    # Hugging Face embeddings (all-MiniLM-L6-v2 etc.)
+langchain-huggingface==0.0.3    # HuggingFaceEmbeddings via LangChain
+
+# ── Streamlit UI ──────────────────────────────
+streamlit==1.37.0
+
+# ── Export: PDF & TXT ─────────────────────────
+fpdf2==2.7.9                    # Generate PDF export
+
+# ── Utilities ─────────────────────────────────
+python-dotenv==1.0.1            # Load .env for API keys
+requests==2.32.3                # HTTP requests
+torch==2.3.1                    # Required by Whisper & sentence-transformers (CPU version)
+torchvision==0.18.1             # Optional but often needed alongside torch
+torchaudio==2.3.1               # Audio support for torch
+numpy==1.26.4                   # Numerical operations
+tiktoken==0.7.0                 # Token counting (used by LangChain internals)
