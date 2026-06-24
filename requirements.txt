@@ -32,7 +32,7 @@ fpdf2==2.7.9                    # Generate PDF export
 # ── Utilities ─────────────────────────────────
 python-dotenv==1.0.1            # Load .env for API keys
 requests==2.32.3                # HTTP requests
-torch==2.3.1                    # Required by Whisper & sentence-transformers (CPU version)
+torch==2.9.0                   # Required by Whisper & sentence-transformers (CPU version)
 torchvision==0.18.1             # Optional but often needed alongside torch
 torchaudio==2.3.1               # Audio support for torch
 numpy==1.26.4                   # Numerical operations
