@@ -21,14 +21,14 @@ yt-dlp==2024.5.27
 chromadb==0.5.3
 sentence-transformers==3.0.1
 
-# ML
-torch==2.12.1
-torchvision==0.27.1
-torchaudio==2.12.1
+# ML (FIXED - IMPORTANT)
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
 numpy==1.26.4
 
 # Utilities
 deep-translator==1.11.4
 python-dotenv==1.0.1
 requests==2.32.3
-fpdf2==2.7.9
+fpdf2==2.7.9 
