@@ -32,8 +32,8 @@ fpdf2==2.7.9                    # Generate PDF export
 # ── Utilities ─────────────────────────────────
 python-dotenv==1.0.1            # Load .env for API keys
 requests==2.32.3                # HTTP requests
-torch==2.9.0                   # Required by Whisper & sentence-transformers (CPU version)
+torch==2.12.1                  # Required by Whisper & sentence-transformers (CPU version)
 torchvision==0.27.1             # Optional but often needed alongside torch
 torchaudio==2.11.0               # Audio support for torch
-numpy==1.26.4                   # Numerical operations
+numpy>=2.0.0                 # Numerical operations
 tiktoken==0.7.0                 # Token counting (used by LangChain internals)
