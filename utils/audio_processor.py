@@ -12,7 +12,7 @@ def download_youtube_audio(url :str) ->str:
     "outtmpl": output_path,
 
     "cookiefile":  "/etc/secrets/www.youtube.com_cookies.txt",  
-
+    "no_cookies_write": True,
     "postprocessors": [
         {
             "key": "FFmpegExtractAudio",
