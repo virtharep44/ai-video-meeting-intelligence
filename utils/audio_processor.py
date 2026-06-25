@@ -11,7 +11,7 @@ def download_youtube_audio(url :str) ->str:
     "format": "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio/best",
     "outtmpl": output_path,
 
-    "cookiefile": "www.youtube.com_cookies.txt",
+    "cookiefile":  "/etc/secrets/www.youtube.com_cookies.txt",  
 
     "postprocessors": [
         {
